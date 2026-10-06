@@ -1,0 +1,59 @@
+{
+  "name": "validation_yard",
+  "config": {
+    "width_m": 200,
+    "height_m": 200,
+    "resolution_m": 0.1,
+    "ground_type": "flat",
+    "ground_base_elev": 10.0,
+    "ground_tilt_deg": 2.0,
+    "ground_roughness": 0.15,
+    "dome_amplitude": 0.0,
+    "origin_easting": 400000.0,
+    "origin_northing": 3300000.0,
+    "epsg": 32643,
+    "reconstruction_noise_std": 0.0,
+    "piles": [
+      {
+        "shape": "cone",
+        "centre_x": 50,
+        "centre_y": 50,
+        "radius_x": 12,
+        "radius_y": 12,
+        "height": 6,
+        "random_seed": null
+      },
+      {
+        "shape": "cone",
+        "centre_x": 130,
+        "centre_y": 100,
+        "radius_x": 10,
+        "radius_y": 10,
+        "height": 5,
+        "random_seed": null
+      },
+      {
+        "shape": "ellipsoid",
+        "centre_x": 70,
+        "centre_y": 150,
+        "radius_x": 15,
+        "radius_y": 8,
+        "height": 4,
+        "random_seed": null
+      }
+    ]
+  },
+  "raster": {
+    "rows": 2000,
+    "cols": 2000,
+    "resolution_m": 0.1
+  },
+  "ground_truth": {
+    "pile_volumes_m3": [
+      904.7786842338604,
+      523.5987755982989,
+      1005.3096491487337
+    ],
+    "total_volume_m3": 2433.687108980893
+  }
+}

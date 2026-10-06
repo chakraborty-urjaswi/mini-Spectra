@@ -1,0 +1,12 @@
+{
+  "name": "banana",
+  "description": "Small 16-image dataset \u2014 fast test of ODM pipeline",
+  "n_images_expected": 16,
+  "has_gcp": false,
+  "tags": [
+    "small",
+    "3d-model",
+    "nadir"
+  ],
+  "source_url": "https://github.com/pierotofy/dataset_banana/archive/refs/heads/master.zip"
+}

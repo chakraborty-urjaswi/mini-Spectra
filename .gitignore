@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# System & IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large datasets & photogrammetry outputs (downloadable via src/data/download.py)
+data/raw/odm_samples/*/images/
+data/raw/odm_samples/_cache/
+data/raw/odm_samples/*/*.JPG
+data/raw/odm_samples/*/*.jpg
+data/raw/odm_samples/*/*.png
+data/raw/odm_samples/*/*.tif
+data/raw/odm_samples/*/*.tiff
+data/raw/odm_samples/aukerman/cleaned/
+data/raw/odm_samples/banana/cleaned/
+
+# Heavy GIS & Point Cloud data (reproducible)
+*.tif
+*.tiff
+*.las
+*.laz
+*.zip
+*.tar.gz
+
+# Retain directory structure and metadata
+!data/processed/**/.gitkeep
+!data/raw/**/.gitkeep
+!notebooks/.gitkeep
+!tests/.gitkeep
+!data/raw/odm_samples/natowi_stockpile.csv
+!data/raw/odm_samples/**/qa_report.csv
+!data/raw/odm_samples/**/dataset_meta.json
+!data/raw/odm_samples/**/license.txt
+!data/raw/odm_samples/**/LICENSE
+!data/raw/odm_samples/**/README.md
+!data/ground_truth/validation_yard_meta.json
+!data/ground_truth/validation_yard_preview.png

@@ -1,0 +1,12 @@
+{
+  "name": "aukerman",
+  "description": "Agricultural field, flat terrain \u2014 ideal baseline for volume pipeline",
+  "n_images_expected": 77,
+  "has_gcp": false,
+  "tags": [
+    "agriculture",
+    "flat",
+    "nadir"
+  ],
+  "source_url": "https://github.com/OpenDroneMap/odm_data_aukerman/archive/refs/heads/master.zip"
+}
